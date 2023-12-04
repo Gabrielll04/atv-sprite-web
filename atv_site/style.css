@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Onest', sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+body {
+    height: 100vh;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    background-image: url(https://images5.alphacoders.com/132/1329594.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 0.2px solid rgba(206, 202, 202, 0.418);
+    position: relative;
+    z-index: 12;
+}
+
+.nav-background {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    backdrop-filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.nav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    background: none;
+}
+
+.nav-menu {
+    background-image: url(https://h7j8r4f2.stackpathcdn.com/wp-content/uploads/2022/03/presskit-sabotage-logo-type-white.png);
+    background-size: cover;
+    background-position: center;
+    width: 10rem;
+    height: 3rem;
+}
+
+.header {
+    display: flex;
+    height: 100%;
+}
+
+.header-content {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: end;
+}
+
+.white-logo {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://h7j8r4f2.stackpathcdn.com/wp-content/uploads/2022/03/presskit-seaofstars-logo-white.png);
+    width: 70rem;
+    height: 15rem;
+}
+
+.promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    padding-top: 3rem;
+}
+
+.promo-poster {
+    background-image: url(https://h7j8r4f2.stackpathcdn.com/wp-content/uploads/2022/05/Sea-of-Stars-PAX.jpg);
+    /* background-image: url(https://images6.alphacoders.com/132/1326393.png); */
+    background-size: cover;
+    background-position: center;
+    width: 28rem;
+    height: 36rem;
+}
+
+.promo-wrapper-content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    gap: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.are-you-ready {
+    align-self: center;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 36rem;
+}
+
+.black-logo {
+    display: inline-block;
+    background-image: url(https://h7j8r4f2.stackpathcdn.com/wp-content/uploads/2022/03/presskit-seaofstars-logo-black.png);
+    background-size: cover;
+    background-position: center;
+    width: 19rem;
+    height: 9rem;
+    margin-top: auto;
+}
+
+.promo-text {
+    font-size: x-large;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.see-more {
+    height: 4rem;
+    font-size: large;
+    cursor: pointer;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    background-color: #e2e8f0;
+    border-radius: 2px;
+}
+
+.see-more:hover {
+    background-color: black;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 5rem;
+}
+
+.profile-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    border-radius: 2px;
+    background-color: #e2e8f0;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-content {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dev-photo {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-image: url(https://images6.alphacoders.com/132/1326393.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-texts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dev-name {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.profile-texts span {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 5rem;
+    background-image: url(https://images8.alphacoders.com/132/1329596.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-content {
+    padding-left: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
